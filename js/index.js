@@ -75,7 +75,6 @@ function check() {
     }
 
     if (scanner) {
-      textField2.textContent = textField2.textContent + ' with scanner';
       scanner.scan(
         function(result) {
           alert('We got a barcode\n' +
